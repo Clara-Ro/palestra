@@ -7,8 +7,6 @@ body{
     font: arial;
     background-color: black;
     margin: auto;
-    width: 100vw;
-    height: 100vh;
 }
 
 header{
@@ -24,6 +22,7 @@ section{
     background-image: url("https://sm.ign.com/t/ign_br/screenshot/default/stardew-valley-multiplayer-v2-pn-n_4ydg.h720.jpg");
     background-size: cover;
     overflow: hidden;
+    height: 60%;
 }
 
 .formDiv{
@@ -55,6 +54,8 @@ input[type="submit"]{
 }
 
 footer{
+   
+    height: 20%;
     background-color: rgba(121, 80, 42, 0.993);
     padding: 5%;
     text-align: center;
